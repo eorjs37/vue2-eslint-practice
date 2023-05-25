@@ -1,24 +1,19 @@
 # vue2-eslint-practice
 
-## Project setup
+# vscode에서 eslint 사용하기
+## settings.json에서 아래 코드 추가
+```javascript
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "typescriptreact",
+        "vue"
+    ],
+    "editor.formatOnSave": true,
+}
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
