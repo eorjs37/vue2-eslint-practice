@@ -11,9 +11,5 @@ module.exports = {
         parser: "@babel/eslint-parser"
     },
     rules: {
-        "max-len": [
-            "error",
-            { tabWidth: 4, code: 100, }
-        ],
     }
 }
